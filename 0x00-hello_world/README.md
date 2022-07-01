@@ -1,1 +1,1 @@
-INtroduction to C
+Introduction to C
