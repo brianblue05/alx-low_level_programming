@@ -68,7 +68,7 @@ int add(int, int);
  */
 void print_to_98(int n);
 /**
- * print_times_table - whatever man
+ * print_times_table - got it?me neither
  *@n: integer to put in this table
  *
  */
