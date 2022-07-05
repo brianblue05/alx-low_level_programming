@@ -1,8 +1,6 @@
 /**
- *
  * main -Entry point
  * Returns: Always returns 0
- * 
  */
 #include "main.h"
 
