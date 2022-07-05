@@ -4,7 +4,7 @@
  * Returns: Always returns 0
  * 
  */
-#include "stdio.h"
+#include "main.h"
 
 int main(void){
 	_putchar('_');
