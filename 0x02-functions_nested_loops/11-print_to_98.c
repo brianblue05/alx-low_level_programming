@@ -4,6 +4,7 @@
 /**
 * main -Entry point
 * int passed to program and 98 printed
+* @n: integer to put in this table
 */
 
 void print_to_98(int n)
