@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main -Entry point
-* Print 98 or something ):
+* Print 98 - or something ):
 * int passed to program and 98 printed
 * @n: integer to put in this table
 */
