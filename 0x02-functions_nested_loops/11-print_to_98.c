@@ -6,7 +6,6 @@
 * print_to_98 - Prints int passed and 98 
 * @n: integer to put in this table
 */
-
 void print_to_98(int n)
 {
 	int i;
