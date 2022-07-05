@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
 * main -Entry point
-* Print 98 - or something ):
-* int passed to program and 98 printed
+* @ print_to_98 - Prints int passed and 98 
 * @n: integer to put in this table
 */
 
