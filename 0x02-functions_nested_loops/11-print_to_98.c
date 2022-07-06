@@ -2,9 +2,8 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
-* main -Entry point
-* print_to_98 -Prints int passed and 98 
-* Whatever is passed to the program will be printed with 98 at the end
+* print_to_98 - Prints all natural numbers to 98
+* n to 98, then a neyline
 * @n: integer to put in this table
 */
 void print_to_98(int n)
