@@ -1,5 +1,7 @@
 include <stdio.h>
 #include "main.h"
+#include "3-main_a.c"
+#include "3-convert_day.c"
 
 /**
  * print_remaining_days - takes a date and prints how many days are
