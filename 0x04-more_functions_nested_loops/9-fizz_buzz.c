@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
  * main - main function
- *
- *
  * Return: a number
  */
 int main(void)
@@ -16,12 +14,8 @@ int main(void)
       printf("Fizz\t");        
     else if ((i%5) == 0)          
       printf("Buzz\t");        
-  
     else 
       printf("%d\t", i);        
-
   }
-
   return 0;
 }
-
