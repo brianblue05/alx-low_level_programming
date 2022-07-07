@@ -1,21 +1,27 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - main function
- * Return: a number
+ * main - Solution for Fizz-Buzz problem.
+ *
+ * Return: 0 - Success
  */
+
 int main(void)
 {
-  int i;
-  for (i=1; i<=100; i++)
-  {
-    if (i%15 == 0)  
-      printf ("FizzBuzz\t");
-    else if ((i%3) == 0)
-      printf("Fizz\t");        
-    else if ((i%5) == 0)          
-      printf("Buzz\t");        
-    else 
-      printf("%d\t", i);        
-  }
-  return 0;
+	int i;
+
+	printf("%d", 1);
+	for (i = 2; i <= 100; i++)
+	{
+		if (i % 3 == 0 && i % 5 == 0)
+			printf(" FizzBuzz");
+		else if (i % 3 == 0)
+			printf(" Fizz");
+		else if (i % 5 == 0)
+			printf(" Buzz");
+		else
+			printf(" %d", i);
+	}
+	printf("\n");
+	return (0);
 }
