@@ -6,3 +6,4 @@
  * Return: returns 1 or 0
  */
 int _putchar(char c);
+#endif
