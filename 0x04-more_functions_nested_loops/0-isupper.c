@@ -1,18 +1,15 @@
-#include "main.h"
-#include <stdio.h>
-#include <ctype.h>
+#include "holberton.h"
 /**
- * @c: character to be checked
- * _isupper - checks if c is uppercase
- * Return: Returns 1 or 0
+ * _isupper - checks if uppercase
+ * @c: character to check
+ *
+ * Return: gives 1 or 0
  */
 int _isupper(int c)
 {
-    char c;
-
-    c = 'C';
-    printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
-
-   return 0;
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	return (0);
 }
-
