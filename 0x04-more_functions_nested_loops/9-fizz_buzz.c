@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - Solution for Fizz-Buzz problem.
- *
- * Return: 0 - Success
+ * Return: Always returns 0
  */
 int main(void)
 {
