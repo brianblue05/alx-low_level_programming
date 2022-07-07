@@ -2,7 +2,6 @@
 /**
  * main - main function
  * Return: a number
- * @i: number passed to program
  */
 int main(void)
 {
