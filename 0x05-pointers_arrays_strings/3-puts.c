@@ -2,7 +2,7 @@
 #include "2-strlen.c"
 /**
  * _putchar - puts a string
- *
+ * _puts -betty is annoying me!
  * @str: string to print
  */
 void _puts(char *str)
