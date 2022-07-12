@@ -1,8 +1,7 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- * _putchar - puts a string
- * _puts -betty is annoying me!
+ * _puts - Printing a string
  * @str: string to print
  */
 void _puts(char *str)
