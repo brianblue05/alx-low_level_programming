@@ -1,8 +1,8 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- * puts2 - puts string twice
- *
+ * puts2 - puts every other character
+ * _putchar -puts every other character
  * @str: string to put twice
  */
 void puts2(char *str)
