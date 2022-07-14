@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stidio.h>
+#include <stdio.h>
 
 /**
  * print_line - prints buffer
