@@ -1,36 +1,35 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: input integer.
- *
- * Return: void.
+ * print_number - print an integer
+ * @n: number to be printed
  */
 
 void print_number(int n)
 {
-	unsigned int a, b, c;
+	unsigned int tens, dig, pos = n;
+	double temp_tens = 1;
 
-	if (n < 0)
-	{
-		_putchar(45);
-		a = n * -1;
-	}
+	if (n == 0)
+		_putchar('0');
 	else
 	{
-		a = n;
-	}
+		if (n < 0)
+		{
+			pos = n * -1;
+			_putchar('-');
+		}
 
-	b = a;
-	c = 1;
+		while (temp_tens <= pos)
+			temp_tens *= 10;
+		tens = temp_tens / 10;
 
-	while (b > 9)
-	{
-		b /= 10;
-		c *= 10;
-	}
-	for (; c >= 1; c /= 10)
-	{
-		_putchar(((a / c) % 10) + 48);
+		while (tens >= 1)
+		{
+			dig = pos / tens;
+			_putchar(dig + '0');
+			pos = (pos - (tens * dig));
+			tens /= 10;
+		}
 	}
 }
