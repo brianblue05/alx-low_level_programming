@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * _sqrt_recursion - Function that returns the factorial of a given number
- * @n: Number to get the square root
- * Return: Square root of a number.
  * helper - helps decide if i'm right
  * @i: integer to guess
- **/
+ * @n: integer to get root of
+ * Return: value of root
+ */
 int helper(int i, int n)
 {
 	int j;
@@ -34,4 +32,5 @@ int _sqrt_recursion(int n)
 	if (helper(i, n) == n && n != 1)
 		return (-1);
 	return (helper(i, n));
+
 }
