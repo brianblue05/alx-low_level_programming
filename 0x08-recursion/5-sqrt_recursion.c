@@ -5,30 +5,35 @@
  * @n: Number to get the square root
  *
  * Return: Square root of a number.
+ * helper - helps decide if i'm right
+ * @i: integer to guess
  */
+int helper(int i, int n)
+{
+	int j;
 
+	if (i * i != n)
+	{
+		if (i > n)
+		{
+			return (-1);
+		}
+		j = helper(i + 1, n);
+		return (j + 1);
+	}
+	return (0);
+}
+/**
+ * _sqrt_recursion - returns square root
+ * @n: integer to return
+ * Return: returns int of squareroot
+ */
 int _sqrt_recursion(int n)
 {
-	if (n > 0)
-		return (get_sqrt(n, 1));
-	else
+	int i = 0;
+
+	if (helper(i, n) == n && n != 1)
 		return (-1);
-}
+	return (helper(i, n));
 
-/**
- * get_sqrt - Get the square root recursively
- * @n: Number to get the square root
- * @sqr: Square root of the number
- *
- * Return: Sqaure root of a number.
- */
-
-int get_sqrt(int n, int sqr)
-{
-	if (sqr * sqr == n)
-		return (sqr);
-	else if (sqr >= n)
-		return (-1);
-
-	return (get_sqrt(n, sqr + 1));
 }
