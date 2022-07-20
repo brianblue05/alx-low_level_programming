@@ -2,6 +2,7 @@
 /**
  * helper - helps decide if i'm right
  * @i: integer to guess
+ * @j: integer to assign after i
  * @n: integer to get root of
  * Return: value of root
  */
@@ -23,6 +24,7 @@ int helper(int i, int n)
 /**
  * _sqrt_recursion - returns square root
  * @n: integer to return
+ * @i: integer used
  * Return: returns int of squareroot
  */
 int _sqrt_recursion(int n)
