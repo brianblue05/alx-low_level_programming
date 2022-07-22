@@ -1,58 +1,38 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#define UNUSED(x) (void)(x)
 /**
- * StringCheck - checks string
- * @s: string to check
- * Return: boolean
+ * main - prints the minimum number of coins to make change for an amount.
+ * of money.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-int StringCheck(char *s)
+int main(int argc, char *argv[])
 {
-	int i = 0;
+	int cents, ncoins = 0;
 
-	for (; s[i] != '\0'; i++)
+	if (argc == 1 || argc > 2)
 	{
-		if (!isdigit(s[i]))
-		{
-			return (0);
-		}
-	}
-	return (1);
-}
-/**
- * main - main function
- * @argc: argumentc
- * @argv: vector of arguments
- *Return: always 0
- */
-int main(int argc, char  *argv[])
-{
-	int i;
-	int result = 0;
-
-	if (argc > 1)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			if (StringCheck(argv[i]))
-			{
-				result += atoi(argv[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-		printf("%d\n", result);
-		return (0);
-	}
-	else
-	{
-		printf("%d\n", 0);
+		printf("Error\n");
 		return (1);
 	}
 
+	cents = atoi(argv[1]);
+
+	while (cents > 0)
+	{
+		if (cents >= 25)
+			cents -= 25;
+		else if (cents >= 10)
+			cents -= 10;
+		else if (cents >= 5)
+			cents -= 5;
+		else if (cents >= 2)
+			cents -= 2;
+		else if (cents >= 1)
+			cents -= 1;
+		ncoins += 1;
+	}
+	printf("%d\n", ncoins);
+	return (0);
 }
