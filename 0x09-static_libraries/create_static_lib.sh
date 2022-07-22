@@ -1,3 +1,4 @@
 #/bin/bash  
+gcc -g -O -c *.c
 ar rc liball.a *.c
-ranlib libmy.a
+ranlib liball.a
