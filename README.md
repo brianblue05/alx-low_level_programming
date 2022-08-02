@@ -1,4 +1,4 @@
-                                            # alx-low_level_programming
+                                            #ALX-Low_Level_Programming
                                                   C programming basics
 [0x00-hello_world](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x00-hello_world)<br/>
 [0x01-variables_if_else_while](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x01-variables_if_else_while)<br/>
