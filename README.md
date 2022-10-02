@@ -6,8 +6,8 @@ Each folder in this repository illustrates an essential concept of programming, 
 
 ## Environment<br>
 ## Language: C <br/>
-- OS: Ubuntu 14.04 LTS<br>
-- Compiler: gcc 4.8.4<br>
+- OS: Ubuntu 20.04 LTS<br>
+- Compiler: gcc 9.4.0<br>
 - Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)<br>
 ### Authors
 Brian Mawira
