@@ -1,5 +1,17 @@
                                                 ALX-Low_Level_Programming
                                                   C programming basics
+                                                  
+ Low Level Programming :octocat:
+Each folder in this repository illustrates an essential concept of programming, specific to the C programming language. The file names reference the concepts (i.e. pointers, recursion, malloc, free, structures, function pointers, variadic functions, linked lists, etc) Inside these folders are files containing bash scripts and functions around that particular concept. Some functions are re-creations of functions found in the C standard libraries (i.e. _strcpy, _strlen, etc).
+
+## Environment<br>
+## Language: C <br/>
+OS: Ubuntu 14.04 LTS<br>
+Compiler: gcc 4.8.4<br>
+Style guidelines: Betty style<br>
+### Authors
+Mawira                                                 
+                                                  
 [0x00-hello_world](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x00-hello_world)<br/>
 [0x01-variables_if_else_while](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x01-variables_if_else_while)<br/>
 [0x02-functions_nested_loops](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x02-functions_nested_loops)<br/>
