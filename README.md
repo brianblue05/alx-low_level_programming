@@ -10,7 +10,9 @@ OS: Ubuntu 14.04 LTS<br>
 Compiler: gcc 4.8.4<br>
 Style guidelines: Betty style<br>
 ### Authors
-Mawira                                                 
+:Twitter: [Brian Mawira](https://twitter.com/Brianmawira254)  
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40Mawira)]([https://twitter.com/Brianmawira254])
                                                   
 [0x00-hello_world](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x00-hello_world)<br/>
 [0x01-variables_if_else_while](https://github.com/brianblue05/alx-low_level_programming/tree/master/0x01-variables_if_else_while)<br/>
